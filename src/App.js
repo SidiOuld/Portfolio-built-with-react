@@ -3,6 +3,7 @@ import "./App.css";
 import { NavLink, Route } from "react-router-dom";
 
 import styled from "styled-components";
+import Home from "./Components/Home";
 
 const NavigationContainer = styled.nav`
   height: 8em;
@@ -20,26 +21,32 @@ function App() {
   return (
     <div className="App">
       <NavigationContainer className="header__nav">
-        <NavLink className="header__nav--li" to="/about-us">
+        <NavLink className="header__nav--li" to="/">
           Home
         </NavLink>
 
-        <NavLink className="header__nav--li" to="/about-us">
+        <NavLink className="header__nav--li" to="/about">
           About
         </NavLink>
 
-        <NavLink className="header__nav--li" to="/about-us">
+        <NavLink className="header__nav--li" to="/projects">
           Projects
         </NavLink>
 
-        <NavLink className="header__nav--li" to="/about-us">
+        <NavLink className="header__nav--li" to="/blog">
           Blogs
         </NavLink>
 
-        <NavLink className="header__nav--li" to="/about-us">
+        <NavLink className="header__nav--li" to="/contact">
           Contact
         </NavLink>
       </NavigationContainer>
+      <div>
+        <Route exact path="/" component={Home} />
+        {/* <Route exact path="/about-us" component={AboutUs} />
+        <Route exact path="/sign-in" component={SignInPage} />
+        <Route exact path="/sign-up" component={SignUpPage} /> */}
+      </div>
     </div>
   );
 }
