@@ -1,24 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { NavLink, Route } from "react-router-dom";
+
+import styled from "styled-components";
+
+const NavigationContainer = styled.nav`
+  height: 8em;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  .header__nav--li {
+    list-style: none;
+    text-decoration: none;
+  }
+`;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationContainer className="header__nav">
+        <NavLink className="header__nav--li" to="/about-us">
+          Home
+        </NavLink>
+
+        <NavLink className="header__nav--li" to="/about-us">
+          About
+        </NavLink>
+
+        <NavLink className="header__nav--li" to="/about-us">
+          Projects
+        </NavLink>
+
+        <NavLink className="header__nav--li" to="/about-us">
+          Blogs
+        </NavLink>
+
+        <NavLink className="header__nav--li" to="/about-us">
+          Contact
+        </NavLink>
+      </NavigationContainer>
     </div>
   );
 }
