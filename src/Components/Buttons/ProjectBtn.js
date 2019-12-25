@@ -8,6 +8,7 @@ const Button = styled.button`
   margin: 10px;
   border-radius: 5px;
   color: rgb(0, 174, 255);
+  text-align: center;
   :hover {
     background: rgb(0, 174, 255);
     color: white;
@@ -15,7 +16,7 @@ const Button = styled.button`
 `;
 
 function ProjectBtn() {
-  return <Button>My projects</Button>;
+  return <Button className="animated slideInUp ">My projects</Button>;
 }
 
 export default ProjectBtn;

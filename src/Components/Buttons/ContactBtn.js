@@ -1,6 +1,7 @@
 import React from "react";
 
 import styled from "styled-components";
+import animate from "animate.css";
 
 const Button = styled.button`
   border: 1px solid rgb(180, 178, 178);
@@ -16,7 +17,7 @@ const Button = styled.button`
 `;
 
 function ContactBtn() {
-  return <Button>Get in touch!</Button>;
+  return <Button className="animated slideInUp">Get in touch!</Button>;
 }
 
 export default ContactBtn;

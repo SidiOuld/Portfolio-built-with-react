@@ -4,9 +4,10 @@ import { NavLink, Route } from "react-router-dom";
 
 import styled from "styled-components";
 import Home from "./Components/Home";
+import About from "./Components/About";
 
 const NavigationContainer = styled.nav`
-  height: 8em;
+  height: 6em;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -43,6 +44,7 @@ function App() {
       </NavigationContainer>
       <div>
         <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
         {/* <Route exact path="/about-us" component={AboutUs} />
         <Route exact path="/sign-in" component={SignInPage} />
         <Route exact path="/sign-up" component={SignUpPage} /> */}
