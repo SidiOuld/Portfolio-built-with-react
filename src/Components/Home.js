@@ -27,8 +27,11 @@ const Container = styled.section`
     padding: 15px;
     margin: 5% 0;
     font-size: 1.1em;
+    .fab {
+      color: black;
+    }
   }
-  .home__sectionTwo {
+  .fab:hover {
     color: rgb(0, 174, 255);
   }
 `;
@@ -38,7 +41,7 @@ function Home() {
     <>
       <Container>
         <div className="home__sectionOne">
-          <h1 className="home__sectionOne--h1 animated bounce delay-5s">
+          <h1 className="home__sectionOne--h1 animated heartBeat delay-2s">
             Hi I'm Sid..
           </h1>
           <h3 className="home__sectionOne--h3">
@@ -62,7 +65,7 @@ function Home() {
           <a href="https://twitter.com/sidiould01" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#">
+          <a href="https://codesandbox.io/dashboard/recent" target="_blank">
             <i class="fab fa-codepen"></i>
           </a>
         </div>

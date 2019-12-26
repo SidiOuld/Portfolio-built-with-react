@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -8,15 +9,27 @@ const Button = styled.button`
   margin: 10px;
   border-radius: 5px;
   color: rgb(0, 174, 255);
-  text-align: center;
+  font-size: 100%;
+  background: white;
   :hover {
+    cursor: pointer;
     background: rgb(0, 174, 255);
     color: white;
+    animation: btn-one 2s ease;
   }
 `;
 
 function ProjectBtn() {
-  return <Button className="animated slideInUp ">My projects</Button>;
+  return (
+    // <Button className="btn-one ">
+    //   <NavLink className="btn-one" to="/projects">
+    //     My projects
+    //   </NavLink>
+    // </Button>
+    <NavLink to="/projects">
+      <Button className="btn-one ">My projects</Button>
+    </NavLink>
+  );
 }
 
 export default ProjectBtn;
