@@ -48,7 +48,8 @@ function About() {
         <br />
         <p className=" animated slideInLeft about__section--animation2">
           In my free time I enjoy contributing to open source and working on
-          personal projects.
+          side projects. I work on side projects to explore new design styles
+          and coding opportunities.
         </p>
         <br />
         <h3 className=" animated slideInLeft about__section--animation3">
