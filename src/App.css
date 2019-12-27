@@ -32,14 +32,15 @@
   /* margin: auto; */
   align-content: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .projects__container--box1 {
   height: 200px;
   width: 300px;
   display: flex;
-  background-image: url(/src/Images/plante.png);
+  /* background-image: url(/src/Images/plante.png); */
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;

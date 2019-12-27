@@ -5,6 +5,7 @@ import ContactBtn from "./Buttons/ContactBtn";
 
 const Container = styled.div`
   .contact-sect1 {
+    min-width: 100px;
     max-width: 500px;
     margin: 5% auto;
     text-align: left;

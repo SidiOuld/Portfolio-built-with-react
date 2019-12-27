@@ -8,25 +8,7 @@ import box4Img from "../Images/nasa.png";
 import styled from "styled-components";
 import ContactBtn from "./Buttons/ContactBtn";
 
-const Container = styled.div`
-  .projects__container--box1 {
-    height: 200px;
-    width: 300px;
-    display: flex;
-    // background-image: url({box1Img});
-    // background-position: center;
-    // background-size: 100% 100%;
-    // background-repeat: no-repeat;
-    margin: 10px;
-    -webkit-box-shadow: -1px 1px 13px 3px rgba(0, 0, 0, 0.66);
-    box-shadow: -1px 1px 13px 3px rgba(0, 0, 0, 0.66);
-  }
-`;
-
-const Box1Style = {
-  backgroundImage: `url({box1Img})`,
-  border: "2px solid red"
-};
+const Container = styled.div``;
 
 function Project() {
   return (
