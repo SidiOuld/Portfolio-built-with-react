@@ -17,7 +17,6 @@ function Project() {
       <section class="projects__container">
         <div class="box ">
           <a href="https://watermyplants-s.netlify.com/" target="_blank">
-            {/* <div class="projects__container--box1 zoom"></div> */}
             <img
               src={box1Img}
               className="projects__container--box1 zoom "
