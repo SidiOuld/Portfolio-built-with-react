@@ -35,21 +35,14 @@ function About() {
       <Section className="animated slideInLeft about__section--animation1">
         <h1>About me..</h1>
         <hr class="hr-small" />
-        <p>
-          My primary focus is frontend web development. I'm passionate about
-          clean and minimalism design and I love creating beautiful and easy to
-          use websites.
-        </p>
-        <br />
         <p className=" animated slideInLeft about__section--animation2">
           My mission is to create whatever I want to create and learning all the
           languages/frameworks/libraries it needs to make it happen.
         </p>
         <br />
         <p className=" animated slideInLeft about__section--animation2">
-          In my free time I enjoy contributing to open source and working on
-          side projects. I work on side projects to explore new design styles
-          and coding opportunities.
+          In my free time I enjoy working on side projects to explore new design
+          styles and coding opportunities.
         </p>
         <br />
         <h3 className=" animated slideInLeft about__section--animation3">

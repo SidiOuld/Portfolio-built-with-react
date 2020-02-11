@@ -14,13 +14,10 @@ const Container = styled.div``;
 function Project() {
   return (
     <Container>
-      <section class="projects__container">
-        <div class="box ">
+      <section className="projects__container">
+        <div className="box ">
           <a href="https://watermyplants-s.netlify.com/" target="_blank">
-            <img
-              src={box1Img}
-              className="projects__container--box1 zoom "
-            ></img>
+            <img src={box1Img} className="projects__container--box1 zoom"></img>
           </a>
           <div>
             <a href="https://github.com/SidiOuld/water" target="_blank">
@@ -28,7 +25,7 @@ function Project() {
             </a>
           </div>
         </div>
-        <div class="box">
+        <div className="box">
           <a href="https://electric-s.netlify.com/" target="_blank">
             <img
               src={box2Img}
@@ -41,7 +38,7 @@ function Project() {
             </a>
           </div>
         </div>
-        <div class="box">
+        <div className="box">
           <a href="https://my-todo-s.netlify.com/" target="_blank">
             <img
               src={box3Img}
@@ -50,11 +47,11 @@ function Project() {
           </a>
           <div>
             <a href="https://github.com/SidiOuld/my" target="_blank">
-              <i class="fab fa-github zoom-icon"></i>
+              <i className="fab fa-github zoom-icon"></i>
             </a>
           </div>
         </div>
-        <div class="box">
+        <div className="box">
           <a
             href="https://nasaphoto-s.netlify.com/"
             target="_blank"
@@ -67,11 +64,11 @@ function Project() {
           </a>
           <div>
             <a href="https://github.com/SidiOuld/nasa-photo" target="_blank">
-              <i class="fab fa-github zoom-icon"></i>
+              <i className="fab fa-github zoom-icon"></i>
             </a>
           </div>
         </div>
-        <div class="box">
+        <div className="box">
           <a
             href="https://github-api-s.netlify.com/"
             target="_blank"
@@ -84,7 +81,7 @@ function Project() {
           </a>
           <div>
             <a href="https://github.com/SidiOuld/GitHub-api" target="_blank">
-              <i class="fab fa-github zoom-icon"></i>
+              <i className="fab fa-github zoom-icon"></i>
             </a>
           </div>
         </div>
