@@ -36,13 +36,14 @@ function About() {
         <h1>About me..</h1>
         <hr class="hr-small" />
         <p className=" animated slideInLeft about__section--animation2">
-          My mission is to create whatever I want to create and learning all the
-          languages/frameworks/libraries it needs to make it happen.
+          By day I'm an energetic support specialist at Fetch Rewards. And by
+          night...well, I enjoy working on side projects to explore new design
+          styles and coding opportunities.
         </p>
         <br />
         <p className=" animated slideInLeft about__section--animation2">
-          In my free time I enjoy working on side projects to explore new design
-          styles and coding opportunities.
+          My mission is to create whatever I want to create and learning all the
+          languages/frameworks/libraries it needs to make it happen.
         </p>
         <br />
         <h3 className=" animated slideInLeft about__section--animation3">
@@ -50,7 +51,7 @@ function About() {
         </h3>
         <p className=" animated slideInLeft about__section--animation3">
           HTML, CSS, css-animations, flex-box, css-grid, Sass,
-          Styled-components, JavaScript and React.
+          Styled-components, JavaScript, React and Jest.
         </p>
         <br />
         <h4 className=" animated slideInLeft about__section--animation4">
