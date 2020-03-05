@@ -1,13 +1,17 @@
 import React from "react";
 import "../App.css";
+import styled from "styled-components";
+
+//components
+import ContactBtn from "./Buttons/ContactBtn";
+
+//bg imgs
 import box1Img from "../Images/plante.png";
 import box2Img from "../Images/electric.png";
 import box3Img from "../Images/todo.png";
 import box4Img from "../Images/nasa.png";
 import box5Img from "../Images/github-api.png";
-
-import styled from "styled-components";
-import ContactBtn from "./Buttons/ContactBtn";
+import box6Img from "../Images/todo-app-context.png";
 
 const Container = styled.div``;
 
@@ -85,7 +89,28 @@ function Project() {
             </a>
           </div>
         </div>
+        <div className="box">
+          <a
+            href="https://todo-app-usecontext.netlify.com/"
+            target="_blank"
+            class="box"
+          >
+            <img
+              src={box6Img}
+              className="projects__container--box4 zoom "
+            ></img>
+          </a>
+          <div>
+            <a
+              href="https://github.com/SidiOuld/Todo-App-useContext"
+              target="_blank"
+            >
+              <i className="fab fa-github zoom-icon"></i>
+            </a>
+          </div>
+        </div>
       </section>
+
       <ContactBtn />
     </Container>
   );

@@ -45,8 +45,7 @@ function Home() {
             Hi I'm Sid..
           </h1>
           <h3 className="home__sectionOne--h3">
-            I'm passionate about minimalism design and I love creating beautiful
-            and easy to use websites!!
+            I love creating beautiful and easy to use websites!!
           </h3>
         </div>
         <div className="home__sectionTwo">
