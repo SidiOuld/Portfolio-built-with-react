@@ -8,7 +8,7 @@ import ContactBtn from "./Buttons/ContactBtn";
 //bg imgs
 import box1Img from "../Images/plante.png";
 import box2Img from "../Images/electric.png";
-import box3Img from "../Images/todo.png";
+import box3Img from "../Images/support.png";
 import box4Img from "../Images/nasa.png";
 import box5Img from "../Images/github-api.png";
 import box6Img from "../Images/todo-app-context.png";
@@ -21,7 +21,11 @@ function Project() {
       <section className="projects__container">
         <div className="box ">
           <a href="https://watermyplants-s.netlify.com/" target="_blank">
-            <img src={box1Img} className="projects__container--box1 zoom"></img>
+            <img
+              src={box1Img}
+              alt=""
+              className="projects__container--box1 zoom"
+            ></img>
           </a>
           <div>
             <a href="https://github.com/SidiOuld/water" target="_blank">
@@ -33,6 +37,7 @@ function Project() {
           <a href="https://electric-s.netlify.com/" target="_blank">
             <img
               src={box2Img}
+              alt=""
               className="projects__container--box2 zoom "
             ></img>
           </a>
@@ -43,9 +48,10 @@ function Project() {
           </div>
         </div>
         <div className="box">
-          <a href="https://my-todo-s.netlify.com/" target="_blank">
+          <a href="https://fetchbook.netlify.com/" target="_blank">
             <img
               src={box3Img}
+              alt=""
               className="projects__container--box3 zoom "
             ></img>
           </a>
@@ -63,6 +69,7 @@ function Project() {
           >
             <img
               src={box4Img}
+              alt=""
               className="projects__container--box4 zoom "
             ></img>
           </a>
@@ -80,6 +87,7 @@ function Project() {
           >
             <img
               src={box5Img}
+              alt=""
               className="projects__container--box4 zoom "
             ></img>
           </a>
@@ -97,6 +105,7 @@ function Project() {
           >
             <img
               src={box6Img}
+              alt=""
               className="projects__container--box4 zoom "
             ></img>
           </a>
