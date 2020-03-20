@@ -50,8 +50,9 @@ function About() {
           Skills:
         </h3>
         <p className=" animated slideInLeft about__section--animation3">
-          HTML, CSS, css-animations, flex-box, css-grid, Sass,
-          Styled-components, JavaScript, React and Jest.
+          HTML, CSS, CSS-Animations, Flex-Box, CSS-Grid, SASS,
+          Styled-components, JavaScript, React, Testing-library/react and
+          Jest(unit testing).
         </p>
         <br />
         <h4 className=" animated slideInLeft about__section--animation4">
