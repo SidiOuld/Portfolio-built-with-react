@@ -23,7 +23,9 @@ const Button = styled.button`
 function ContactBtn() {
   return (
     <NavLink to="/contact">
-      <Button className="btn-two ">Get in touch!</Button>
+      <Button className="btn-two " type="submit">
+        Get in touch!
+      </Button>
     </NavLink>
   );
 }
