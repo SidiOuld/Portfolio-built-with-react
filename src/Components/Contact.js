@@ -66,7 +66,7 @@ function Contact() {
         <h1 className="animated slideInLeft">Send me a message ..</h1>
         <hr class="hr-small" />
 
-        <form action="">
+        <form name="contact" method="POST" data-netlify="true">
           <input type="text" placeholder="Full name" />
           <hr />
           <input type="text" placeholder="Email address" />
