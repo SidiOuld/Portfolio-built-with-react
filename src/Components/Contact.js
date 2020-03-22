@@ -40,7 +40,9 @@ const Container = styled.div`
   form hr {
     min-width: 100%;
   }
-
+  h3 {
+    text-align: left;
+  }
   button {
     border: 1px solid rgb(180, 178, 178);
     padding: 20px 30px;
@@ -54,9 +56,6 @@ const Container = styled.div`
       color: rgb(0, 174, 255);
     }
   }
-  h3 {
-    text-align: left;
-  }
 `;
 
 function Contact() {
@@ -67,9 +66,9 @@ function Contact() {
         <hr class="hr-small" />
 
         <form name="contact" method="POST" data-netlify="true">
-          <input type="text" placeholder="Full name" />
+          <input type="text" name="fullName" placeholder="Full name" />
           <hr />
-          <input type="text" placeholder="Email address" />
+          <input type="text" name="email" placeholder="Email address" />
           <hr />
           <textarea
             name="Message"
@@ -80,7 +79,7 @@ function Contact() {
           <br />
         </form>
       </section>
-      <ContactBtn />
+      <ContactBtn className="button" />
       <h3>
         This page is under <i class="fas fa-wrench"></i>
       </h3>
