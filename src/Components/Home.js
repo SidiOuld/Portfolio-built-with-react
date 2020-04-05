@@ -42,10 +42,10 @@ function Home() {
       <Container>
         <div className="home__sectionOne">
           <h1 className="home__sectionOne--h1 animated heartBeat delay-2s">
-            Hi I'm Sid..
+            👋🏼 I'm Sidi!
           </h1>
           <h3 className="home__sectionOne--h3">
-            I love creating simple and easy to use websites!
+            I'm on a journey to become a Full Stack Developer!
           </h3>
         </div>
         <div className="home__sectionTwo">
