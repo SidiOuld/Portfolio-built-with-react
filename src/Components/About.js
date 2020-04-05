@@ -33,7 +33,7 @@ function About() {
   return (
     <>
       <Section className="animated slideInLeft about__section--animation1">
-        <h1>About me..</h1>
+        <h1>About Me</h1>
         <hr class="hr-small" />
         <p className=" animated slideInLeft about__section--animation2">
           By day I'm an energetic support specialist at Fetch Rewards. And by
@@ -42,8 +42,9 @@ function About() {
         </p>
         <br />
         <p className=" animated slideInLeft about__section--animation2">
-          My mission is to create whatever I want to create and learning all the
-          languages/frameworks/libraries it needs to make it happen.
+          Why tech? I 💙 to learn new things and to solve problems. Naturally,
+          tech is the perfect place for that. Things are always changing, so
+          you'll never run out of opportunities to learn something new!
         </p>
         <br />
         <h3 className=" animated slideInLeft about__section--animation3">
