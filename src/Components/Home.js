@@ -13,6 +13,9 @@ const Container = styled.section`
     margin-top: 5%;
     .home__sectionOne--h1 {
       font-size: 5em;
+      .inline {
+        display: inline;
+      }
     }
     .home__sectionOne--h3 {
       font-size: 2em;
