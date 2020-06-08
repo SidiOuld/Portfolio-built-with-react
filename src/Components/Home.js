@@ -48,7 +48,8 @@ function Home() {
             👋🏼 I'm Sidi!
           </h1>
           <h3 className="home__sectionOne--h3">
-            I'm on a journey to become a Full Stack Developer!
+            Take a look around and feel free to contact me with any requests or
+            questions!
           </h3>
         </div>
         <div className="home__sectionTwo">
