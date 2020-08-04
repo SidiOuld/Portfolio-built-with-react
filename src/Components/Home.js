@@ -47,10 +47,10 @@ function Home() {
           <h1 className="home__sectionOne--h1 animated heartBeat delay-2s">
             👋🏼 I'm Sidi!
           </h1>
-          <h3 className="home__sectionOne--h3">
-            Take a look around and feel free to contact me with any requests or
-            questions!
-          </h3>
+
+          <h2 className="home__sectionOne--h3">
+            I build things for the web! Feel free to take a look around.
+          </h2>
         </div>
         <div className="home__sectionTwo">
           <a

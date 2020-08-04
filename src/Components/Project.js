@@ -19,7 +19,7 @@ function Project() {
   return (
     <Container>
       <section className="projects__container">
-        <div className="box ">
+        {/* <div className="box ">
           <a href="https://watermyplants-s.netlify.com/" target="_blank">
             <img
               src={box1Img}
@@ -32,7 +32,7 @@ function Project() {
               <i class="fab fa-github zoom-icon"></i>
             </a>
           </div>
-        </div>
+        </div> */}
         <div className="box">
           <a href="https://electric-s.netlify.com/" target="_blank">
             <img
