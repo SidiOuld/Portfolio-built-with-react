@@ -19,20 +19,6 @@ function Project() {
   return (
     <Container>
       <section className="projects__container">
-        {/* <div className="box ">
-          <a href="https://watermyplants-s.netlify.com/" target="_blank">
-            <img
-              src={box1Img}
-              alt=""
-              className="projects__container--box1 zoom"
-            ></img>
-          </a>
-          <div>
-            <a href="https://github.com/SidiOuld/water" target="_blank">
-              <i class="fab fa-github zoom-icon"></i>
-            </a>
-          </div>
-        </div> */}
         <div className="box">
           <a href="https://electric-s.netlify.com/" target="_blank">
             <img
