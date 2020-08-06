@@ -21,12 +21,9 @@ const Button = styled.button`
 
 function ProjectBtn() {
   return (
-    // <NavLink to="/projects">
-    //   <Button className="btn-one ">My projects</Button>
-    // </NavLink>
-    <a href="/projects">
+    <NavLink to="/projects">
       <Button className="btn-one ">My projects</Button>
-    </a>
+    </NavLink>
   );
 }
 

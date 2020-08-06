@@ -71,25 +71,25 @@ function App() {
   return (
     <div className="App">
       <NavigationContainer className="header__nav">
-        <a className="header__nav--li hvr-sweep-to-right" to="/">
+        <NavLink className="header__nav--li hvr-sweep-to-right" to="/">
           Home
-        </a>
+        </NavLink>
 
-        <a className="header__nav--li hvr-sweep-to-right" to="/about">
+        <NavLink className="header__nav--li hvr-sweep-to-right" to="/about">
           About
-        </a>
+        </NavLink>
 
-        <a className="header__nav--li hvr-sweep-to-right" to="/projects">
+        <NavLink className="header__nav--li hvr-sweep-to-right" to="/projects">
           Projects
-        </a>
+        </NavLink>
 
-        <a className="header__nav--li hvr-sweep-to-right" to="/blog">
+        <NavLink className="header__nav--li hvr-sweep-to-right" to="/blog">
           Blogs
-        </a>
+        </NavLink>
 
-        <a className="header__nav--li hvr-sweep-to-right" to="/contact">
+        <NavLink className="header__nav--li hvr-sweep-to-right" to="/contact">
           Contact
-        </a>
+        </NavLink>
       </NavigationContainer>
       <div>
         <Route exact path="/" component={Home} />
