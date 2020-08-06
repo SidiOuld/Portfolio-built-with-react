@@ -6,13 +6,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "acorn": "^7.4.0",
     "animate.css": "^3.7.2",
     "dot-prop": "^5.2.0",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.19",
+    "minimist": "^1.2.5",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
+    "serialize-javascript": "^4.0.0",
     "styled-components": "^4.4.1"
   },
   "scripts": {
