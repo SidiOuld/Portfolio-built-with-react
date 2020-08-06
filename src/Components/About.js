@@ -52,7 +52,7 @@ function About() {
         <p className=" animated slideInLeft about__section--animation3">
           HTML, CSS, CSS-Animations, Flex-Box, CSS-Grid, SASS,
           Styled-components, JavaScript, React, Testing-library/react and
-          Jest(unit testing).
+          Jest(unit testing)
         </p>
         <br />
         <h4 className=" animated slideInLeft about__section--animation4">
