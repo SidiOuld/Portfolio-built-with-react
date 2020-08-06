@@ -33,20 +33,6 @@ function Project() {
             </a>
           </div>
         </div>
-        {/* <div className="box">
-          <a href="https://fetchbook.netlify.com/" target="_blank">
-            <img
-              src={box3Img}
-              alt=""
-              className="projects__container--box3 zoom "
-            ></img>
-          </a>
-          <div>
-            <a href="https://github.com/SidiOuld/my" target="_blank">
-              <i className="fab fa-github zoom-icon"></i>
-            </a>
-          </div>
-        </div> */}
         <div className="box">
           <a
             href="https://nasaphoto-s.netlify.com/"
