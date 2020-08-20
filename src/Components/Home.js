@@ -49,7 +49,7 @@ function Home() {
           </h1>
 
           <h2 className="home__sectionOne--h3">
-            I build things for the web! Feel free to take a look around.
+            I build things! Feel free to take a look around.
           </h2>
         </div>
         <div className="home__sectionTwo">
