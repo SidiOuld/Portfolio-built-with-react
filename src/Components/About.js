@@ -36,8 +36,8 @@ function About() {
         <h1>About Me</h1>
         <hr class="hr-small" />
         <p className=" animated slideInLeft about__section--animation2">
-          By day I'm a support specialist at Fetch Rewards. And by night...well,
-          I enjoy working on side projects to explore new coding opportunities.
+          By day, I'm a support specialist at Fetch Rewards. And by night, I
+          enjoy working on side projects to explore new coding opportunities.
         </p>
         <br />
         <p className=" animated slideInLeft about__section--animation2">

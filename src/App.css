@@ -38,6 +38,7 @@
   height: 200px;
   width: 300px;
   display: flex;
+  /* border: 2px solid black; */
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -88,8 +89,8 @@
 .box {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
+  /* align-content: center; */
+  /* justify-content: center; */
   align-items: center;
 }
 
